@@ -1,12 +1,46 @@
 * {
     box-sizing: border-box;
+  
 }
 body {
     font-family: 'Lato', sans-serif;
-    margin: 0;
-    padding: 0;
+    margin-top: 10px;
+    
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Roboto Slab', serif;
     font-weight:700;
+}
+.navigation {
+    margin: 0;
+    padding: 0;
+}
+.navigation-item {
+    list-style: none;
+}
+.navigation-link {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    color: #939699;
+    text-transform: uppercase;
+}
+.button-img {
+    margin-right: 10px;
+}
+.button {
+    padding: 10px 20px;
+    background: #4592FF;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+.button-text {
+    font-weight: 900;
+    font-size: 14px;
+    color: #fff;
+}
+.button:hover {
+    background: #2f7ce9;
 }
