@@ -4,12 +4,15 @@
 }
 body {
     font-family: 'Lato', sans-serif;
-    margin-top: 10px;
+    margin: 0;
     
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Roboto Slab', serif;
     font-weight:700;
+}
+.header {
+    padding: 20px 0;
 }
 .navigation {
     margin: 0;
@@ -43,4 +46,51 @@ h1,h2,h3,h4,h5,h6 {
 }
 .button:hover {
     background: #2f7ce9;
+}
+.slide {
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+
+.slide-1 {
+    background: #B4D1E0 url(../img/image.png) no-repeat center right 20%;
+}
+.button-indent {
+    margin-right: 10px;
+}
+.lable {
+    padding: 5px 12px;
+    background: #3DC47E;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+}
+.slide-tittle {
+    font-weight: bold;
+    font-size: 55px;
+    color: #262D33;
+    max-width: 355px;
+    line-height: 1.3;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.slide-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #4B5157;
+    max-width: 310px;
+    margin-bottom: 30px;
+}
+.slider {
+    position: relative ;
+}
+.slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
 }
