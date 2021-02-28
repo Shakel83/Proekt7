@@ -50,10 +50,14 @@ h1,h2,h3,h4,h5,h6 {
 .slide {
     padding-top: 90px;
     padding-bottom: 110px;
+    min-height: 565px;
 }
 
 .slide-1 {
     background: #B4D1E0 url(../img/image.png) no-repeat center right 10%;
+}
+.slide-2 {
+    background: #08993f url(../img/image.png) no-repeat center right 10%;
 }
 .button-indent {
     margin-right: 10px;
@@ -93,6 +97,7 @@ h1,h2,h3,h4,h5,h6 {
     transform: translateY(-50%);
     background-color: transparent;
     border: none;
+    z-index: 9;
 }
 .card-tittle {
     font-weight: bold;
@@ -273,3 +278,32 @@ color: #fff;
     color: #fff;
     margin-right: 15px;
 }
+/* media запросы */
+@media (max-width:1200px) {
+    .slide {
+        background-size: cover;
+    }
+    .card {
+        margin-bottom: 10px;
+    } 
+}
+@media (max-width:992px){
+  .slider-arrow {
+      display: none;
+  }  
+  .card-2 {
+    background-position: right;
+}
+  .card-3 {
+      background-position: right;
+  }
+}
+@media (max-width:992px){
+   .slide-tittle {
+       font-size: 33px;
+   }
+   .card-3 {
+    background-size:cover;
+}
+@media (max-width:576px){
+   

@@ -10,18 +10,19 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <title>Wibberies</title>
 </head>
 
 <body>
     <header class="container">
         <div class="row header d-flex  align-items-center justify-content-between">
-            <div class="col-2">
+            <div class="col-lg-2 col-6">
                 <a href="/" class="logo-link">
                     <img src="img/Logo.svg" alt="wilberies" class="logo-img">
                 </a>
             </div>
-            <div class="col-6 ">
+            <div class="col-6 d-none d-lg-block ">
                 <nav>
                     <ul class="navigation d-flex justify-content-around ">
                         <li class="navigation-item">
@@ -58,7 +59,7 @@
                 </nav>
 
             </div>
-            <div class="col-2 d-flex justify-content-end">
+            <div class="col-lg-2 col-6 d-flex justify-content-end">
                 <button class="button ">
                     <img src="img/Cart.svg" alt="Корзина" class="button-img">
                     <span class="button-text">
@@ -68,43 +69,97 @@
             </div>
         </div>
     </header>
-    <div class="slider">
-        <section class="slide slide-1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4 offset-lg-1">
-                        <span class="lable">
-                            Bestseller
-                        </span>
-                        <h2 class="slide-tittle">
-                            Sweater Choker Neck
-                        </h2>
-                        <p class="slide-text">
-                            Women’s pearl basic knit sweater with a round neck. Available in several colours. Free
-                            shipping to stores.
-                        </p>
-                        <button class="button">
-                            <span class="button-text button-indent">
-                                $319
+    <div class="slider swiper-container">
+        <div class="swiper-wrapper">
+            <section class="slide slide-1 swiper-slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-10 offset-lg-1">
+                            <span class="lable">
+                                Bestseller
                             </span>
-                            <span class="button-text">
-                                Shop now
-                            </span>
-                        </button>
+                            <h2 class="slide-tittle">
+                                Sweater Choker Neck
+                            </h2>
+                            <p class="slide-text">
+                                Women’s pearl basic knit sweater with a round neck. Available in several colours. Free
+                                shipping to stores.
+                            </p>
+                            <button class="button">
+                                <span class="button-text button-indent">
+                                    $319
+                                </span>
+                                <span class="button-text">
+                                    Shop now
+                                </span>
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+            <section class="slide slide-2 swiper-slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-10 offset-lg-1">
+                            <span class="lable">
+                                Bestseller
+                            </span>
+                            <h2 class="slide-tittle">
+                                Striped Long Sleeve Shirt
+                            </h2>
+                            <p class="slide-text">
+                                Women’s pearl basic knit sweater with a round neck. Available in several colours. Free
+                                shipping to stores.
+                            </p>
+                            <button class="button">
+                                <span class="button-text button-indent">
+                                    $319
+                                </span>
+                                <span class="button-text">
+                                    Shop now
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="slide slide-1 swiper-slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-10 offset-lg-1">
+                            <span class="lable">
+                                New
+                            </span>
+                            <h2 class="slide-tittle">
+                                Text T-Shirt
+                            </h2>
+                            <p class="slide-text">
+                                Women’s pearl basic knit sweater with a round neck. Available in several colours. Free
+                                shipping to stores.
+                            </p>
+                            <button class="button">
+                                <span class="button-text button-indent">
+                                    $319
+                                </span>
+                                <span class="button-text">
+                                    Shop now
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
         <div class="slider-nav">
             <div class="container">
                 <div class="row justify-content-between">
-                    <div class="col-1">
-                        <button class="slider-arrow">
+                    <div class="col-1 ">
+                        <button class="slider-arrow slider-button-prev">
                             <img src="img/Arrow-left.png" alt="Arrow-left" class="arrow">
                         </button>
                     </div>
                     <div class="col-1">
-                        <button class="slider-arrow">
+                        <button class="slider-arrow slider-button-next">
                             <img src="img/Arrow-right.png" alt="Arrow-right" class="arrow">
                         </button>
                     </div>
@@ -115,7 +170,7 @@
     </div>
     <div class="container pt-5 pb-4">
         <div class="row">
-            <div class="col-6">
+            <div class="col-xl-6">
                 <div class="card">
                     <h3 class="card-tittle">
                         Fashion Month Ready in Capital Shop
@@ -131,7 +186,7 @@
                     </button>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-xl-6">
                 <div class="card card-2">
                     <h3 class="card-tittle card2-tittle">
                         Catch the Sun: Spring Break Styles From $5.99
@@ -149,7 +204,7 @@
             </div>
         </div>
         <div class="row mt-4">
-            <div class="col-9">
+            <div class="col-xl-9">
                 <div class="card card-3">
                     <span class="lable lable-widht">
                         Bestseller
@@ -170,7 +225,7 @@
                     </button>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-xl-3">
                 <div class="card card-4">
                     <h3 class="card-tittle card4-tittle">
                         Printed Shirt with a Bow
@@ -200,7 +255,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-3">
+            <div class="col-lg-3 col-sm-6">
                 <div class="card-item">
                     <span class="lable lable-item">
                         New
@@ -217,7 +272,7 @@
                     </span>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-sm-6">
                 <div class="card-item">
                     <span class="lable lable-item">
                         New
@@ -234,7 +289,7 @@
                     </span>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-sm-6">
                 <div class="card-item">
                     <span class="lable lable-item">
                         New
@@ -251,7 +306,7 @@
                     </span>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-sm-6">
                 <div class="card-item">
                     <span class="lable lable-item">
                         New
@@ -273,9 +328,9 @@
     <footer class="footer">
         <div class="container">
             <div class="row d-flex align-items-center mb-4">
-                <div class="col-6 d-flex justify-content-start ">
+                <div class="col-xl-6 col-12 mb-3 mb-xl-0 d-flex justify-content-start ">
                     <nav class="footer-nav">
-                        <ul class="footer-menu d-flex justify-content-start">
+                        <ul class="footer-menu d-sm-flex justify-content-start">
                             <a href="#" class="footer-link">
                                 <li class="footer-item">
                                     Shop
@@ -309,7 +364,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-4 d-flex justify-content-center">
+                <div class="col-xl-4 col-12 mb-3 mb-xl-0 d-xl-flex justify-content-center">
                     <div class="footer-social d-flex align-items-center ">
                         <span class="footer-folow">
                             Follow Us
@@ -325,15 +380,15 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-2 d-flex justify-content-end">
+                <div class="col-xl-2 col-12 d-xl-flex justify-content-end">
                     <span class="footer-text__end">
                         © 2019 Universal UI Kit
                     </span>
                 </div>
             </div>
             <hr class="footer-line">
-            <div class="row d-flex justify-content-between align-items-center">
-                <div class="col-10">
+            <div class="row d-sm-flex justify-content-between align-items-center">
+                <div class="col-10 ">
                     <div class="footer-many">
                         <img src="img/visa.png" alt="visa" class="footer-icon">
                         <img src="img/master.png" alt="master" class="footer-icon">
@@ -351,6 +406,8 @@
         </div>
 
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
